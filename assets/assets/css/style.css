@@ -1,9 +1,16 @@
-/* asterisk wildcard selector to override default styles added by the browser /*
+/* asterisk wildcard selector to override default styles added by the browser */
 { padding:0;
     margin:0;
     box-sizing:border-box;
 }
-
+/* genral styles */
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+    /* generic project styles */
+    color:#3a3a3a;
+}
 
 /* Header */
 header {

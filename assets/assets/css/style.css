@@ -37,6 +37,28 @@ h1 {
     letter-spacing: 2px;
     color:#252525;
 }
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+#menu > li {
+    margin-bottom: 1rem;
+}
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 0 1rem;
+    left: 0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+}
 
 /* Main content */
 main {
@@ -49,15 +71,4 @@ main {
 footer {
     background-color: orange
     ;
-}
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-#menu > li {
-    margin-bottom: 1rem;
-}
-.active {
-    border-bottom: 1px solid #3a3a3a;
 }
